@@ -15,7 +15,7 @@ const Hero = () => {
 
   return (
     <>
-    <div id='home' className='relative w-full lg:h-screen py-30 h-auto bg-cover bg-center z-20' style={{backgroundImage: `url(${Heroimg})`}}>
+    <div id='home' className='relative w-full lg:h-screen py-30 px-5 h-auto bg-cover bg-center z-20' style={{backgroundImage: `url(${Heroimg})`}}>
       <div className='absolute inset-0 bg-black/40'></div>
       <div className='w-full relative z-10 flex flex-col justify-center items-center h-full gap-6 text-white px6'>
         <h1 className='lg:text-7xl text-4xl capitalize text-center font-fahkwang font-bold' data-aos='zoom-in' data-aos-delay='100'>Explore the Beauty of <br /> Sri Lanka</h1>
