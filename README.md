@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![GoCeylon Banner](public/logo.png)
 
 **Explore the Beauty of Sri Lanka**
 
