@@ -43,6 +43,12 @@ const Header = () => {
     }
   }, [menuOpen])
 
+  const handleMobileNav = () => {
+    document.body.style.overflow = ''
+    document.body.style.height = ''
+    setMenuOpen(false)
+  }
+
   return (
     <>
       {/* Header Bar */}
@@ -56,7 +62,7 @@ const Header = () => {
           <Link
             to="home"
             smooth={true}
-            duration={500}
+            duration={300}
             className="text-orange-500 font-extrabold lg:text-3xl text-2xl font-fahkwang cursor-pointer flex items-center gap-1 tracking-tight"
           >
             GoCeylon<span className="text-white">.</span>
@@ -80,7 +86,7 @@ const Header = () => {
                     to={link.to}
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={300}
                     offset={-70}
                     activeClass="text-orange-500 font-bold"
                     className="cursor-pointer hover:text-orange-500 transition-colors py-1"
@@ -95,7 +101,7 @@ const Header = () => {
             <Link
               to="packages"
               smooth={true}
-              duration={600}
+              duration={300}
               offset={-70}
               className="bg-orange-600 hover:bg-orange-700 text-white text-sm font-semibold px-5 py-2.5 rounded-full cursor-pointer transition shadow-md hover:shadow-orange-600/40"
             >
@@ -112,7 +118,7 @@ const Header = () => {
         } flex flex-col items-center justify-center`}
       >
         <button
-          onClick={() => setMenuOpen(false)}
+          onClick={handleMobileNav}
           className="absolute top-6 right-6 text-white text-3xl p-2 cursor-pointer hover:text-orange-500 transition"
           aria-label="Close menu"
         >
@@ -129,9 +135,9 @@ const Header = () => {
               <Link
                 to={link.to}
                 smooth={true}
-                duration={500}
+                duration={300}
                 offset={-70}
-                onClick={() => setMenuOpen(false)}
+                onClick={handleMobileNav}
                 className="cursor-pointer hover:text-orange-500 transition font-medium"
               >
                 {link.name}
@@ -144,9 +150,9 @@ const Header = () => {
           <Link
             to="packages"
             smooth={true}
-            duration={500}
+            duration={300}
             offset={-70}
-            onClick={() => setMenuOpen(false)}
+            onClick={handleMobileNav}
             className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-semibold px-8 py-3 rounded-full text-base transition shadow-lg cursor-pointer"
           >
             Explore Packages

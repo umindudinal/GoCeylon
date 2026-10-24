@@ -93,7 +93,7 @@ const DestinationModal = ({ destination, isOpen, onClose, onExploreTours }) => {
             <Link
               to="packages"
               smooth={true}
-              duration={600}
+              duration={300}
               offset={-80}
               onClick={() => {
                 onClose()

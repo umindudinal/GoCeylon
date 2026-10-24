@@ -54,7 +54,7 @@ const Hero = () => {
           <Link
             to="packages"
             smooth={true}
-            duration={600}
+            duration={300}
             offset={-80}
             className="w-full sm:w-auto bg-orange-600 hover:bg-orange-700 text-white px-8 py-3.5 font-semibold text-sm sm:text-base capitalize rounded-xl cursor-pointer transition-all duration-300 shadow-lg hover:shadow-orange-600/50 transform hover:-translate-y-0.5 text-center"
           >
@@ -63,7 +63,7 @@ const Hero = () => {
           <Link
             to="services"
             smooth={true}
-            duration={600}
+            duration={300}
             offset={-80}
             className="w-full sm:w-auto bg-white/20 hover:bg-white hover:text-black backdrop-blur-md border border-white/30 text-white px-8 py-3.5 font-semibold text-sm sm:text-base capitalize rounded-xl cursor-pointer transition-all duration-300 shadow-md text-center"
           >

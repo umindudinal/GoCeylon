@@ -95,7 +95,7 @@ const About = () => {
           <Link
             to="contact"
             smooth={true}
-            duration={500}
+            duration={300}
             offset={-70}
             className="inline-block bg-gray-900 hover:bg-orange-600 text-white px-7 py-3 rounded-xl font-semibold text-sm transition cursor-pointer shadow-md"
           >

@@ -56,7 +56,7 @@ const CtaOne = () => {
           <Link
             to="packages"
             smooth={true}
-            duration={600}
+            duration={300}
             offset={-80}
             className="w-full sm:w-auto bg-orange-600 hover:bg-orange-700 text-white px-8 py-3.5 rounded-xl font-semibold text-sm sm:text-base transition cursor-pointer shadow-lg hover:shadow-orange-600/40 text-center"
           >

@@ -111,32 +111,32 @@ const Footer = () => {
           <h3 className="text-lg font-semibold font-fahkwang text-white mb-4">Quick Links</h3>
           <ul className="space-y-2.5 text-sm text-gray-400">
             <li>
-              <Link to="home" smooth duration={500} offset={-70} className="hover:text-orange-500 transition cursor-pointer">
+              <Link to="home" smooth duration={300} offset={-70} className="hover:text-orange-500 transition cursor-pointer">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="about" smooth duration={500} offset={-70} className="hover:text-orange-500 transition cursor-pointer">
+              <Link to="about" smooth duration={300} offset={-70} className="hover:text-orange-500 transition cursor-pointer">
                 About Us
               </Link>
             </li>
             <li>
-              <Link to="services" smooth duration={500} offset={-70} className="hover:text-orange-500 transition cursor-pointer">
+              <Link to="services" smooth duration={300} offset={-70} className="hover:text-orange-500 transition cursor-pointer">
                 Destinations
               </Link>
             </li>
             <li>
-              <Link to="packages" smooth duration={500} offset={-70} className="hover:text-orange-500 transition cursor-pointer">
+              <Link to="packages" smooth duration={300} offset={-70} className="hover:text-orange-500 transition cursor-pointer">
                 Tour Packages
               </Link>
             </li>
             <li>
-              <Link to="reviews" smooth duration={500} offset={-70} className="hover:text-orange-500 transition cursor-pointer">
+              <Link to="reviews" smooth duration={300} offset={-70} className="hover:text-orange-500 transition cursor-pointer">
                 Traveler Reviews
               </Link>
             </li>
             <li>
-              <Link to="contact" smooth duration={500} offset={-70} className="hover:text-orange-500 transition cursor-pointer">
+              <Link to="contact" smooth duration={300} offset={-70} className="hover:text-orange-500 transition cursor-pointer">
                 Contact & Support
               </Link>
             </li>
