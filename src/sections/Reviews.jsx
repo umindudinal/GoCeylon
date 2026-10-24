@@ -46,7 +46,7 @@ const Reviews = () => {
 
               {/* Quote Icon & Text */}
               <div className="relative mb-6">
-                <FaQuoteLeft className="text-orange-100 text-3xl absolute -top-2 -left-1 -z-0 opacity-80" />
+                <FaQuoteLeft className="text-orange-100 text-3xl absolute -top-2 -left-1 z-0 opacity-80" />
                 <p className="text-gray-700 text-sm leading-relaxed relative z-10 italic">
                   "{item.text}"
                 </p>

@@ -55,7 +55,7 @@ const TourModal = ({ tour, isOpen, onClose }) => {
       >
         {/* Header Image with Overlay */}
         <div className="relative h-64 sm:h-72 w-full bg-cover bg-center" style={{ backgroundImage: `url(${tour.image})` }}>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/30"></div>
+          <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-black/30"></div>
           
           {/* Close Button */}
           <button 

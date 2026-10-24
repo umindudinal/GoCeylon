@@ -20,20 +20,11 @@ const Hero = () => {
       style={{ backgroundImage: `url(${Heroimg})` }}
     >
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
+      <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/40 to-black/70"></div>
 
       {/* Main Hero Content */}
       <div className="w-full max-w-5xl relative z-10 flex flex-col justify-center items-center text-white text-center gap-6 mt-12 sm:mt-8">
         
-        {/* Top Tag */}
-        <div
-          data-aos="fade-down"
-          data-aos-delay="100"
-          className="inline-flex items-center gap-2 bg-black/40 backdrop-blur-md border border-white/20 text-orange-400 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold tracking-wide"
-        >
-          <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
-          Authentic Sri Lanka Travel Partner 🇱🇰
-        </div>
 
         {/* Main Headline */}
         <h1

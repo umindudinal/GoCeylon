@@ -17,7 +17,7 @@ const CtaOne = () => {
   return (
     <section
       id="cta1"
-      className="relative w-full min-h-[420px] lg:min-h-[480px] py-20 px-6 flex flex-col items-center justify-center bg-cover bg-center"
+      className="relative w-full min-h-105 lg:min-h-120 py-20 px-6 flex flex-col items-center justify-center bg-cover bg-center"
       style={{ backgroundImage: `url(${Cta1})` }}
     >
       {/* Dark overlay */}

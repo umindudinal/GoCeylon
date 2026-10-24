@@ -167,7 +167,7 @@ const Packages = () => {
                     style={{ backgroundImage: `url(${item.image})` }}
                     className="bg-cover bg-center h-64 relative overflow-hidden"
                   >
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/20 group-hover:scale-105 transition-transform duration-500"></div>
+                    <div className="absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-black/20 group-hover:scale-105 transition-transform duration-500"></div>
 
                     {/* Price Badge */}
                     <div className="bg-orange-600 text-white absolute top-3 left-3 px-3 py-1.5 rounded-xl shadow-lg flex flex-col items-center">

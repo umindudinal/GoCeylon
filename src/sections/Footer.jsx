@@ -31,7 +31,7 @@ const Footer = () => {
       {/* Top Newsletter Card (Floating overlapping banner) */}
       <div
         id="top"
-        className="bg-gradient-to-r from-[#046e8f] to-[#02495d] w-full lg:px-12 p-8 rounded-2xl flex lg:flex-row flex-col justify-between items-center -mt-36 gap-8 shadow-2xl border border-white/10"
+        className="bg-linear-to-r from-[#046e8f] to-[#02495d] w-full lg:px-12 p-8 rounded-2xl flex lg:flex-row flex-col justify-between items-center -mt-36 gap-8 shadow-2xl border border-white/10"
         data-aos="zoom-in"
         data-aos-delay="100"
       >

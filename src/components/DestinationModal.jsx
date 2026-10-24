@@ -29,7 +29,7 @@ const DestinationModal = ({ destination, isOpen, onClose, onExploreTours }) => {
         onClick={(e) => e.stopPropagation()}
       >
         {/* Top Header */}
-        <div className="bg-gradient-to-r from-orange-600 to-amber-600 p-6 text-white relative">
+        <div className="bg-linear-to-r from-orange-600 to-amber-600 p-6 text-white relative">
           <button 
             onClick={onClose}
             className="absolute top-4 right-4 w-9 h-9 rounded-full bg-black/30 hover:bg-black text-white flex items-center justify-center transition cursor-pointer"

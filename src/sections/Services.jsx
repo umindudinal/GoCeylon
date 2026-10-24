@@ -74,7 +74,7 @@ const Services = () => {
               style={{ backgroundImage: `url(${Service1})` }}
               className="relative bg-cover bg-center w-full h-88 rounded-2xl p-6 flex justify-between items-end cursor-pointer group overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
             >
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10 group-hover:scale-105 transition-transform duration-500"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-black/10 group-hover:scale-105 transition-transform duration-500"></div>
               <span className="absolute top-4 left-4 bg-orange-600 text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                 UNESCO Site
               </span>
@@ -97,7 +97,7 @@ const Services = () => {
               style={{ backgroundImage: `url(${Service2})` }}
               className="relative bg-cover bg-center w-full h-88 rounded-2xl p-6 flex justify-between items-end cursor-pointer group overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
             >
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10 group-hover:scale-105 transition-transform duration-500"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-black/10 group-hover:scale-105 transition-transform duration-500"></div>
               <span className="absolute top-4 left-4 bg-amber-600 text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                 Sacred City
               </span>
@@ -122,7 +122,7 @@ const Services = () => {
               style={{ backgroundImage: `url(${Service3})` }}
               className="relative bg-cover bg-center w-full h-88 rounded-2xl p-6 flex justify-between items-end cursor-pointer group overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
             >
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10 group-hover:scale-105 transition-transform duration-500"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-black/10 group-hover:scale-105 transition-transform duration-500"></div>
               <span className="absolute top-4 left-4 bg-emerald-600 text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                 Mountain Haven
               </span>
@@ -154,7 +154,7 @@ const Services = () => {
               style={{ backgroundImage: `url(${Service4})` }}
               className="relative bg-cover bg-center w-full h-88 rounded-2xl p-6 flex justify-between items-end cursor-pointer group overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
             >
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10 group-hover:scale-105 transition-transform duration-500"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-black/10 group-hover:scale-105 transition-transform duration-500"></div>
               <span className="absolute top-4 left-4 bg-yellow-600 text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                 Wildlife Safari
               </span>
@@ -179,7 +179,7 @@ const Services = () => {
               style={{ backgroundImage: `url(${Service5})` }}
               className="relative bg-cover bg-center w-full h-88 rounded-2xl p-6 flex justify-between items-end cursor-pointer group overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
             >
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10 group-hover:scale-105 transition-transform duration-500"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-black/10 group-hover:scale-105 transition-transform duration-500"></div>
               <span className="absolute top-4 left-4 bg-cyan-600 text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                 Beach & Whales
               </span>
@@ -202,7 +202,7 @@ const Services = () => {
               style={{ backgroundImage: `url(${Service6})` }}
               className="relative bg-cover bg-center w-full h-88 rounded-2xl p-6 flex justify-between items-end cursor-pointer group overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
             >
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10 group-hover:scale-105 transition-transform duration-500"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-black/10 group-hover:scale-105 transition-transform duration-500"></div>
               <span className="absolute top-4 left-4 bg-rose-600 text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                 Living Fortress
               </span>

@@ -48,7 +48,7 @@ const Header = () => {
       {/* Header Bar */}
       <header
         className={`fixed top-0 left-0 w-full py-4 lg:px-22 px-6 transition-all duration-300 z-40 ${
-          scrolled ? 'bg-black/85 backdrop-blur-md shadow-xl py-3.5' : 'bg-gradient-to-b from-black/70 to-transparent'
+          scrolled ? 'bg-black/85 backdrop-blur-md shadow-xl py-3.5' : 'bg-linear-to-b from-black/70 to-transparent'
         }`}
       >
         <div className="flex justify-between items-center max-w-7xl mx-auto">
