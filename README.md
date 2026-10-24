@@ -5,15 +5,12 @@
 ![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
-
-🌐 **Live Demo:** [umindudinal.github.io/GoCeylon](https://umindudinal.github.io/GoCeylon/)
 
 ---
 
 ## 📖 About
 
-**GoCeylon** is a front-end Sri Lanka travel and tour website built with React 19, Tailwind CSS 4, and Vite. It features AOS scroll animations, smooth React Scroll navigation, and is deployed on GitHub Pages. The site presents curated Sri Lanka tour packages, popular destinations, and travel services — designed to inspire visitors to explore Sri Lanka's beaches, heritage sites, wildlife, and hill country.
+**GoCeylon** is a front-end Sri Lanka travel and tour website built with React 19, Tailwind CSS 4, and Vite. It features AOS scroll animations and smooth React Scroll navigation. The site presents curated Sri Lanka tour packages, popular destinations, and travel services — designed to inspire visitors to explore Sri Lanka's beaches, heritage sites, wildlife, and hill country.
 
 ---
 
@@ -55,7 +52,6 @@
 | React Icons 5 | Icon components |
 | React Router DOM 7 | Client-side routing |
 | React Scroll | Smooth anchor scrolling |
-| gh-pages | GitHub Pages deployment |
 
 ---
 
@@ -129,22 +125,6 @@ GoCeylon/
    ```
    http://localhost:5173
    ```
-
----
-
-## 🚀 Deployment
-
-This project is deployed to GitHub Pages using the `gh-pages` package.
-
-```bash
-# Build and deploy
-npm run deploy
-```
-
-The `homepage` field in `package.json` is set to:
-```
-https://umindudinal.github.io/GoCeylon/
-```
 
 ---
 
